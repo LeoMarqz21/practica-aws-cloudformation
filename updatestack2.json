@@ -1,0 +1,13 @@
+{
+    "Resources":{
+        "platzilab":{
+            "Type": "AWS::S3::Bucket"
+        },
+        "leomarqz": {
+            "Type":"AWS::S3::Bucket",
+            "Properties":{
+                "BucketName": "s3bucketnametestlmdemo"
+            }
+        }
+    }
+}
